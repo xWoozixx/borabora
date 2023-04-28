@@ -87,7 +87,7 @@
           </div>
           <div class="last">
             <img src="img/seminaire.jpg" alt="Séminaires / Mariages" class="img-border size-1" />
-            <a href="nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
+            <a href=" nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
             <p>Des salles et salons adaptables à vos besoins</p>
           </div>
         </div>

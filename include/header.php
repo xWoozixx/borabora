@@ -5,16 +5,16 @@
       <nav>  
         <ul class="menu">
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/index.php' ? ' class="current"' : '' ?>>
-            <a href="/">Accueil</a>
+            <a href="index.php">Accueil</a>
           </li>
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/a-propos.php' ? ' class="current"' : '' ?>>
-            <a href="/a-propos.php">A propos</a>
+            <a href="a-propos.php">A propos</a>
           </li>
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/nos-prestations.php' ? ' class="current"' : '' ?>>
-            <a href="/nos-prestations.php">Nos prestations</a>
+            <a href="nos-prestations.php">Nos prestations</a>
           </li>
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/nos-tarifs.php' ? ' class="current"' : '' ?>>
-            <a href="/nos-tarifs.php">Nos tarifs</a>
+            <a href="nos-tarifs.php">Nos tarifs</a>
           </li>
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/products.php' ? ' class="current"' : '' ?>>
             <a href="#">Calendrier</a>
