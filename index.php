@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <title>Accueil - Le Bora-Bora</title>
-  <?php include_once $racine .'/include/head.php' ?>  
+  <?php include_once $racine .'/borabora/include/head.php' ?>  
   <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
   <script>
     $(document).ready(function(){				   	
@@ -26,14 +26,14 @@
   </script>
 </head>
 <body>
-  <?php include_once $racine .'/include/header.php' ?>
+  <?php include_once $racine .'/borabora/include/header.php' ?>
   
   <!--==============================Diaporama================================-->
   <div id="slide">
     <div class="slider">
       <ul class="items">
         <li>
-          <img src="/img/32066996.jpg" alt="Vue plage - Hôtel" />
+          <img src="img/32066996.jpg" alt="Vue plage - Hôtel" />
           <div class="banner">
             <p class="text-1a">Un emplacement <strong>Idéal !</strong></p>
             <p class="text-2">Ut ééééwisi enim ahd minim veniam quis nostrud exerci takltion ulamc orper suscipit lobortis</p>
@@ -41,7 +41,7 @@
         </li>
         
         <li>
-          <img src="/img/32067055.jpg" alt="Vue mer" />
+          <img src="img/32067055.jpg" alt="Vue mer" />
           <div class="banner">
             <p class="text-1a">Un environement <strong>Idyllique ...</strong></p>
             <p class="text-2">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
@@ -49,7 +49,7 @@
         </li>
         
         <li>
-          <img src="/img/36805713.jpg" alt="Vue bungalo - Chemins" />
+          <img src="img/36805713.jpg" alt="Vue bungalo - Chemins" />
           <div class="banner">
             <p class="text-1a">Un site <strong>Arboré</strong></p>
             <p class="text-2">Feugiat nulla facilisis at vero erots et accumsan et iusto odio dignis sim qui blandit.</p>
@@ -63,7 +63,7 @@
   <section id="content">
     <div class="container_12">
       <div class="grid_12 box-1">
-        <img src="/img/page1-img1.png" alt="Picto" />
+        <img src="img/page1-img1.png" alt="Picto" />
         <div class="extra-wrap">
           <h2>L'Ile des <span>Pins</span></h2>
           <p>En Nouvelle Calédonie, L’île des Pins est une destination unique.</p>
@@ -76,22 +76,22 @@
         <h2 class="top-1">Nos prestations</h2>
         <div class="box-3">
           <div>
-            <img src="/img/spa.jpg" alt="Spa" class="img-border size-1" />
-            <a href="/nos-prestations.php#spa" class="link-2">Spa</a>
+            <img src="img/spa.jpg" alt="Spa" class="img-border size-1" />
+            <a href="nos-prestations.php#spa" class="link-2">Spa</a>
             <p>Avec piscine intérieure chauffée, sauna, jacuzzi</p>
           </div>
           <div>
-            <img src="/img/golf.jpg" alt="Golf" class="img-border size-1" />
-            <a href="/nos-prestations.php#golf" class="link-2">Golf</a>
+            <img src="img/golf.jpg" alt="Golf" class="img-border size-1" />
+            <a href="nos-prestations.php#golf" class="link-2">Golf</a>
             <p>1 parcours de golf 15 trous</p>
           </div>
           <div class="last">
-            <img src="/img/seminaire.jpg" alt="Séminaires / Mariages" class="img-border size-1" />
-            <a href="/nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
+            <img src="img/seminaire.jpg" alt="Séminaires / Mariages" class="img-border size-1" />
+            <a href="nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
             <p>Des salles et salons adaptables à vos besoins</p>
           </div>
         </div>
-        <a href="/nos-prestations.php" class="button top-4">En savoir plus ...</a>
+        <a href="nos-prestations.php" class="button top-4">En savoir plus ...</a>
       </div>
 
       <div class="grid_4">
@@ -118,6 +118,6 @@
   </section>
   
   <!--==============================footer=================================-->
-  <?php include_once $racine .'/include/footer.php' ?>
+  <?php include_once $racine .'/borabora/include/footer.php' ?>
 </body>
 </html>
