@@ -1,9 +1,10 @@
-<?php $racine = $_SERVER['DOCUMENT_ROOT'] ?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <title>Accueil - Le Bora-Bora</title>
-  <?php include_once $racine .'/borabora/include/head.php' ?>  
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
+  <?php include_once 'include/head.php'?> 
+
+  <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
   <script>
     $(document).ready(function(){				   	
       $('.slider')._TMS({
@@ -26,7 +27,7 @@
   </script>
 </head>
 <body>
-  <?php include_once $racine .'/borabora/include/header.php' ?>
+  <?php include_once 'include/header.php' ?>
   
   <!--==============================Diaporama================================-->
   <div id="slide">
@@ -36,7 +37,7 @@
           <img src="img/32066996.jpg" alt="Vue plage - Hôtel" />
           <div class="banner">
             <p class="text-1a">Un emplacement <strong>Idéal !</strong></p>
-            <p class="text-2">Ut ééééwisi enim ahd minim veniam quis nostrud exerci takltion ulamc orper suscipit lobortis</p>
+            <p class="text-2">Pour vous et tous vos pene8</p>
           </div>
         </li>
         
@@ -44,7 +45,7 @@
           <img src="img/32067055.jpg" alt="Vue mer" />
           <div class="banner">
             <p class="text-1a">Un environement <strong>Idyllique ...</strong></p>
-            <p class="text-2">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <p class="text-2">Rempli de Jong</p>
           </div>
         </li>
         
@@ -52,7 +53,7 @@
           <img src="img/36805713.jpg" alt="Vue bungalo - Chemins" />
           <div class="banner">
             <p class="text-1a">Un site <strong>Arboré</strong></p>
-            <p class="text-2">Feugiat nulla facilisis at vero erots et accumsan et iusto odio dignis sim qui blandit.</p>
+            <p class="text-2">De bounty</p>
           </div>
         </li>
       </ul>
@@ -99,18 +100,18 @@
         <div class="box-4 top-2">
           <div class="date"><strong>17</strong><span>Avril 2017</span></div>
           <p>
-            <a href="/calendrier.php#paques" class="link">La chasse aux OEux de Pâques</a><br/>
+            <a href="calendrier.php#paques" class="link">La chasse aux OEux de Pâques</a><br/>
             Venez nous rejoindre lors de cette grande fête annuelle !
           </p>
         </div>
         <div class="box-4 top-3">
           <div class="date"><strong>14</strong><span>Juillet 2017</span></div>
           <p>
-            <a href="/calendrier.php#14juillet" class="link">NOTRE feu d'Artifice du 14 Juillet</a><br/>
+            <a href="calendrier.php#14juillet" class="link">NOTRE feu d'Artifice du 14 Juillet</a><br/>
             Venez assister à notre célèbre feu d'artifice !
           </p>
         </div>
-        <a href="/calendrier.php" class="button top-4">Voir toutes les dates ...</a>
+        <a href="calendrier.php" class="button top-4">Voir toutes les dates ...</a>
       </div>
       
       <div class="clear"></div>
@@ -118,6 +119,6 @@
   </section>
   
   <!--==============================footer=================================-->
-  <?php include_once $racine .'/borabora/include/footer.php' ?>
+  <?php include_once 'include/footer.php' ?>
 </body>
 </html>
