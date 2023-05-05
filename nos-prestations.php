@@ -2,16 +2,16 @@
 <html lang="fr">
 <head>
   <title>Nos prestations - Le Bora-Bora</title>
-  <?php include_once $racine .'/include/head.php' ?>
+  <?php include_once $racine .'/borabora/include/head.php' ?>
 </head>
 <body>
-  <?php include_once $racine .'/include/header.php' ?>
+  <?php include_once $racine .'/borabora/include/header.php' ?>
   
   <!--==============================content================================-->
   <section id="content">
     <div class="container_12 top">
       <div class="grid_12 box-1">
-        <img src="/img/page1-img1.png" alt="Picto" />
+        <img src="img/page1-img1.png" alt="Picto" />
         <div class="extra-wrap">
           <h2>LES CHAMBRES</h2>
           <ul class="list-1">
@@ -49,7 +49,7 @@
       </div>
       
       <div class="grid_12 box-1">
-        <img src="/img/page1-img1.png" alt="Picto" />
+        <img src="img/page1-img1.png" alt="Picto" />
         <div class="extra-wrap">
           <h2>LES RESTAURANTS &amp; LE BAR</h2>
             <ul class="list-1">
@@ -72,7 +72,7 @@
       </div>
       
       <div class="grid_12 box-1">
-        <img src="/img/page1-img1.png" alt="Picto" />
+        <img src="img/page1-img1.png" alt="Picto" />
         <div class="extra-wrap" id="spa">
           <h2>LE SPA</h2>
             <ul class="list-1">
@@ -86,7 +86,7 @@
       </div>
       
       <div class="grid_12 box-1">
-        <img src="/img/page1-img1.png" alt="Picto" />
+        <img src="img/page1-img1.png" alt="Picto" />
         <div class="extra-wrap" id="seminaires">
           <h2>LES SEMINAIRES &amp; MARIAGES</h2>
           <ul class="list-1">
@@ -126,6 +126,6 @@
   </section>
   
   <!--==============================footer=================================-->
-  <?php include_once $racine .'/include/footer.php' ?>
+  <?php include_once $racine .'/borabora/include/footer.php' ?>
 </body>
 </html>
