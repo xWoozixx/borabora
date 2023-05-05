@@ -1,2 +1,21 @@
-hello
-test commit Adrien
+Ajouter la table spa  vide:
+CREATE TABLE `borabora`.`spa` (`num_soin` INT NOT NULL AUTO_INCREMENT , `lib_soin` VARCHAR(50) NOT NULL , `prix_soin` INT NOT NULL , `desc_soin` TEXT NULL , PRIMARY KEY (`num_soin`)) ENGINE = MyISAM;
+
+
+
+Ajouter durée
+ALTER TABLE `spa` ADD `duree` INT NOT NULL AFTER `lib_soin`;
+
+
+Mettre 1 ligne 
+
+INSERT INTO `spa` (`num_soin`, `lib_soin`, `duree`, `prix_soin`, `desc_soin`) VALUES (NULL, 'SOIN CONTOUR DES YEUX ÉCLAT', '30', '6500', 'Soin décongestionnant et hydratant • A combiner\r\navec un soin visage SOIN TEEN\r\nGommage sous vapeur et masque clarifiant • Adapté\r\naux peaux des 12/18 ans\r\n');
+
+
+
+INSERT INTO `spa` (`num_soin`, `lib_soin`, `duree`, `prix_soin`, `desc_soin`) VALUES (NULL, 'SOIN ÉCLAT IMMÉDIAT AUX FLEURS', '60', '9500', 'Soin éclat et dynamisant • Toutes peaux\r\nSoin éclat et dynamisant • Toutes peaux');
+
+
+
+
+
