@@ -91,7 +91,7 @@ $nb_prestations = count($prix_par_prestation);
 <div class="grid_12 box-1">
     <img src="img/page1-img2.png" alt="Picto" />
     <div class="extra-wrap">
-      <h2>LE SPA</h2>
+      <h2>LE SPA  / NOS SOINS</h2>
       <ul class="list-1">
         <?php for ($i=0; $i<$nb_prestations; $i++) { ?>
         <li><?php echo $prix_par_prestation[$i]['libelle'] .' Durée : '. $prix_par_prestation[$i]['duree'].' min => '. $prix_par_prestation[$i]['prix'] ?></li>
