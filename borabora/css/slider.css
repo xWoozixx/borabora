@@ -20,11 +20,41 @@
 		
 .items { display:none;}
 
-.pagination { position:absolute; bottom:84px; right:165px; display:inline-block; z-index:111;}
-.pagination li {float:left; margin-right:10px; position:relative;	}
-.pagination li a { display:inline-block; width:35px; height:36px; background:url(../img/pagination.png) right 0 no-repeat;}
-.pagination li.current a, .pagination li:hover a { background:url(../img/pagination.png) 0 0 no-repeat;}
+.pagination { 
+    position:absolute; 
+    bottom:84px; 
+    right:165px; 
+    display:inline-block; 
+    z-index:111;
+}
+.pagination li {
+    float:left; 
+    margin-right:10px; 
+    position:relative;	
+}
+.pagination li a { 
+    display:inline-block; 
+    width:35px; 
+    height:36px; 
+    background:url(../img/pagination.png) right 0 no-repeat;
+}
+.pagination li.current a, .pagination li:hover a { 
+    background:url(../img/pagination.png) 0 0 no-repeat;
+}
 
-.banner {position:absolute; z-index:100; top:17px; left:723px; width:360px;}
-.banner .text-1 {display:block; margin-left:48px; margin-bottom:25px; background:#fff;}
-.banner .text-2 {background:#fff;}
+.banner {
+    position:absolute; 
+    z-index:100; 
+    top:17px; 
+    left:723px; 
+    width:360px;
+}
+.banner .text-1 {
+    display:block; 
+    margin-left:48px; 
+    margin-bottom:25px; 
+    background:#fff;
+}
+.banner .text-2 {
+    background:#fff;
+}
