@@ -1,11 +1,11 @@
-<?php $racine = $_SERVER['DOCUMENT_ROOT'] ?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <title>A propos - Le Bora-Bora</title>
-  <?php require_once $racine .'/borabora/include/head.php' ?>
+  <?php require_once 'include/head.php' ?>
 </head>
 <body>
-  <?php include_once $racine .'/borabora/include/header.php' ?>
+  <?php include_once 'include/header.php' ?>
   <!--==============================content================================-->
   <section id="content">
     <div class="container_12 top">
@@ -102,6 +102,6 @@
   </section>
   
   <!--==============================footer=================================-->
-  <?php include_once $racine . '/borabora/include/footer.php' ?>
+  <?php include_once  'include/footer.php' ?>
 </body>
 </html>
